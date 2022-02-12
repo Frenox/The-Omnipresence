@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "The_Omnipresence",
+			"Path": "C:\\Users\\maxim\\Desktop\\The Omnipresence\\The-Omnipresence\\The_Omnipresence\\Source\\The_Omnipresence.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "The_OmnipresenceEditor",
+			"Path": "C:\\Users\\maxim\\Desktop\\The Omnipresence\\The-Omnipresence\\The_Omnipresence\\Source\\The_OmnipresenceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

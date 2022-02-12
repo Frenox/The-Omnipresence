@@ -1,0 +1,3 @@
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Definitions.The_Omnipresence.h
+C:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

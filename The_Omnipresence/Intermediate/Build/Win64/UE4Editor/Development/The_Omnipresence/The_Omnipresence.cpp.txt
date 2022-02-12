@@ -1,0 +1,2 @@
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Definitions.The_Omnipresence.h
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Source\The_Omnipresence\The_Omnipresence.h
