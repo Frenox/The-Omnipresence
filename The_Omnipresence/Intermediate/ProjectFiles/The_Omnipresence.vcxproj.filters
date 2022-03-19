@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\The_Omnipresence.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{37BFC9BB-2313-4A6E-8A6A-06EABA0E0CE5}</UniqueIdentifier>
+      <UniqueIdentifier>{51678EFB-DEFA-46CA-AF39-2AB73F7A4AB4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\The_Omnipresence.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AD5835FF-CFD2-4638-8049-9351A710876F}</UniqueIdentifier>
+      <UniqueIdentifier>{8936175B-365B-4C5D-B2BD-E20E0AED892F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\The_Omnipresence">
-      <UniqueIdentifier>{CE191E9F-FD6D-4FD6-B8B6-8C8AFA78846C}</UniqueIdentifier>
+      <UniqueIdentifier>{7229BFF2-3496-4E0F-9423-A6F53E911270}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\The_Omnipresence\C_Player.cpp">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\The_Omnipresence\C_Player.h">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\The_Omnipresence\PlayerComponent.cpp">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\The_Omnipresence\PlayerComponent.h">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\The_Omnipresence\Player_Component.cpp">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\The_Omnipresence\Player_Component.h">
+      <Filter>Source\The_Omnipresence</Filter>
+    </ClInclude>
     <None Include="..\..\Source\The_Omnipresence\The_Omnipresence.Build.cs">
       <Filter>Source\The_Omnipresence</Filter>
     </None>

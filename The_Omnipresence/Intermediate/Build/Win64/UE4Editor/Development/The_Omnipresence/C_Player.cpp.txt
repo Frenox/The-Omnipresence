@@ -1,0 +1,19 @@
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Definitions.The_Omnipresence.h
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Source\The_Omnipresence\C_Player.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Inc\The_Omnipresence\C_Player.generated.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\UE_4.27\Engine\Source\Runtime/Engine/Classes/Kismet/GameplayStatics.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

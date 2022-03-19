@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-The_Omnipresence-0011.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\The_OmnipresenceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\C_Player.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\PlayerComponent.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Player_Component.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_Omnipresence.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceCharacter.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceGameMode.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceHUD.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceProjectile.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\C_Player.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\PlayerComponent.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Player_Component.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_Omnipresence.init.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceCharacter.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceGameMode.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceHUD.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\The_OmnipresenceProjectile.gen.cpp.obj"
+"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\Default.rc2.res"
+/OUT:"C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0011.lib"
