@@ -11,6 +11,13 @@ AC_Player::AC_Player()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	MeshPlayer = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
+	MeshPlayer->SetOnlyOwnerSee(true);
+	MeshPlayer->SetupAttachment(RootComponent);
+	MeshPlayer->bCastDynamicShadow = false;
+	MeshPlayer->CastShadow = false;
+	MeshPlayer->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
+	MeshPlayer->SetRelativeLocation(FVector(0.0f, 0.0f, -95.0f));
 }
 
 // Called when the game starts or when spawned
@@ -115,10 +122,12 @@ void AC_Player::LeftClick()
 	FCollisionQueryParams traceParams;
 	if (GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, traceParams))
 	{
-		AActor* target = hit.GetActor();
-		if (target->ActorHasTag(FName(TEXT("HouseDoor"))))
+		FOutputDeviceNull ar;
+		const FString command = FString::Printf(TEXT("DoorInteract"));
+		doorBP = hit.GetActor();
+		if (doorBP)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Just clicked on a door"));
+			doorBP->CallFunctionByNameWithArguments(*command, ar, NULL, true);
 		}
 	}
 }

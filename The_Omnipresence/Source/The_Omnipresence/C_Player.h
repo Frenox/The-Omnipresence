@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Misc/OutPutDeviceNull.h"
+
 #include "C_Player.generated.h"
 
 UCLASS()
@@ -37,4 +39,11 @@ public:
 	bool isSprinting;
 
 	void LeftClick();
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+		USkeletalMeshComponent* MeshPlayer;
+
+private:
+	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
+		AActor* doorBP;
 };

@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THE_OMNIPRESENCE_C_Player_generated_h
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_SPARSE_DATA
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_RPC_WRAPPERS
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_INCLASS_NO_PURE_DECLS \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_SPARSE_DATA
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_RPC_WRAPPERS
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC_Player(); \
 	friend struct Z_Construct_UClass_AC_Player_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AC_Player)
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_INCLASS \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAC_Player(); \
 	friend struct Z_Construct_UClass_AC_Player_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AC_Player)
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_STANDARD_CONSTRUCTORS \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AC_Player(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC_Player) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_ENHANCED_CONSTRUCTORS \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC_Player(AC_Player&&); \
@@ -58,28 +58,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC_Player)
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_PRIVATE_PROPERTY_OFFSET
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_9_PROLOG
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_GENERATED_BODY_LEGACY \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__doorBP() { return STRUCT_OFFSET(AC_Player, doorBP); }
+
+
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_11_PROLOG
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_PRIVATE_PROPERTY_OFFSET \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_SPARSE_DATA \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_RPC_WRAPPERS \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_INCLASS \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_STANDARD_CONSTRUCTORS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_PRIVATE_PROPERTY_OFFSET \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_SPARSE_DATA \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_RPC_WRAPPERS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_INCLASS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_GENERATED_BODY \
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_PRIVATE_PROPERTY_OFFSET \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_SPARSE_DATA \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_INCLASS_NO_PURE_DECLS \
-	The_Omnipresence_Source_The_Omnipresence_C_Player_h_12_ENHANCED_CONSTRUCTORS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_PRIVATE_PROPERTY_OFFSET \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_SPARSE_DATA \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_INCLASS_NO_PURE_DECLS \
+	The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

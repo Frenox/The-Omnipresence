@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeThe_Omnipresence_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4887B2F5,
-				0x3AF6BC55,
+				0x49578C94,
+				0x74664837,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
