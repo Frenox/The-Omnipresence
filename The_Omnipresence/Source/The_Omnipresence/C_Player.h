@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+	// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -36,7 +36,8 @@ public:
 
 	void Sprint();
 	void StopSprinting();
-	bool isSprinting;
+
+	void ToggleCrouch();
 
 	void LeftClick();
 
@@ -46,4 +47,7 @@ public:
 private:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
 		AActor* doorBP;
+
+	bool isSprinting;
+	bool isCrouching;
 };

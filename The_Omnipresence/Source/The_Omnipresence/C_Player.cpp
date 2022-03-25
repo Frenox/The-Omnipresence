@@ -2,6 +2,7 @@
 
 
 #include "C_Player.h"
+#include "GameFramework/PawnMovementComponent.h"
 #include "DrawDebugHelpers.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
@@ -10,6 +11,7 @@ AC_Player::AC_Player()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
 	MeshPlayer = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
 	MeshPlayer->SetOnlyOwnerSee(true);
@@ -54,6 +56,8 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		InputComponent->BindAction("Sprint", IE_Pressed, this, &AC_Player::Sprint);
 		InputComponent->BindAction("Sprint", IE_Released, this, &AC_Player::StopSprinting);
+
+		InputComponent->BindAction("Crouch", IE_Pressed, this, &AC_Player::ToggleCrouch);
 
 		InputComponent->BindAction("LeftClick", IE_Pressed, this, &AC_Player::LeftClick);
 	}
@@ -106,6 +110,19 @@ void AC_Player::Sprint()
 void AC_Player::StopSprinting()
 {
 	isSprinting = false;
+}
+
+void AC_Player::ToggleCrouch()
+{
+	if (isCrouching)
+	{
+		UnCrouch();
+	}
+	else
+	{
+		Crouch();
+	}
+	isCrouching = !isCrouching;
 }
 
 void AC_Player::LeftClick()
