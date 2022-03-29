@@ -46,7 +46,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
-		AActor* doorBP;
+		AActor* hitActor;
 
 	bool isSprinting;
 	bool isCrouching;

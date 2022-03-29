@@ -140,11 +140,21 @@ void AC_Player::LeftClick()
 	if (GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, traceParams))
 	{
 		FOutputDeviceNull ar;
-		const FString command = FString::Printf(TEXT("DoorInteract"));
-		doorBP = hit.GetActor();
-		if (doorBP)
+		hitActor = hit.GetActor();
+		if (hitActor)
 		{
-			doorBP->CallFunctionByNameWithArguments(*command, ar, NULL, true);
+			if (hitActor->ActorHasTag(TEXT("HouseDoor")))
+			{
+				const FString command = FString::Printf(TEXT("DoorInteract"));
+				hitActor->CallFunctionByNameWithArguments(*command, ar, NULL, true);
+			}
+			else if (hitActor->ActorHasTag(TEXT("Item")))
+			{
+				if (hitActor->GetActorLabel() == "SM_AudioRecorder")
+				{
+					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Audio recorder clicked"));
+				}
+			}
 		}
 	}
 }

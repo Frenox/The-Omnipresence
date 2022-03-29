@@ -59,7 +59,7 @@ public: \
 
 
 #define The_Omnipresence_Source_The_Omnipresence_C_Player_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__doorBP() { return STRUCT_OFFSET(AC_Player, doorBP); }
+	FORCEINLINE static uint32 __PPO__hitActor() { return STRUCT_OFFSET(AC_Player, hitActor); }
 
 
 #define The_Omnipresence_Source_The_Omnipresence_C_Player_h_11_PROLOG
