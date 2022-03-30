@@ -39,7 +39,7 @@ public:
 
 	void ToggleCrouch();
 
-	void LeftClick();
+	void Interact();
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USkeletalMeshComponent* MeshPlayer;

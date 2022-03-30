@@ -59,7 +59,7 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 		InputComponent->BindAction("Crouch", IE_Pressed, this, &AC_Player::ToggleCrouch);
 
-		InputComponent->BindAction("LeftClick", IE_Pressed, this, &AC_Player::LeftClick);
+		InputComponent->BindAction("Interact", IE_Pressed, this, &AC_Player::Interact);
 	}
 }
 
@@ -125,7 +125,7 @@ void AC_Player::ToggleCrouch()
 	isCrouching = !isCrouching;
 }
 
-void AC_Player::LeftClick()
+void AC_Player::Interact()
 {
 	FVector loc;
 	FRotator rot;
