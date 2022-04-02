@@ -44,6 +44,11 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USkeletalMeshComponent* MeshPlayer;
 
+	UPROPERTY(EditAnywhere, Category = "Inventory")
+		AActor * inventoryManager;
+
+	TMap<FString, bool> itemsCollected;
+
 private:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
 		AActor* hitActor;

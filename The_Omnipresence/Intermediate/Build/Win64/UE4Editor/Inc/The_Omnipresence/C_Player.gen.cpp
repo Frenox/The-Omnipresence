@@ -38,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshPlayer;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventoryManager_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventoryManager;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hitActor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hitActor;
@@ -65,6 +69,13 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_MeshPlayer = { "MeshPlayer", nullptr, (EPropertyFlags)0x00100000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, MeshPlayer), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_MeshPlayer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_MeshPlayer_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager_MetaData[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "C_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager = { "inventoryManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, inventoryManager), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData[] = {
 		{ "Category", "BlueprintClass" },
 		{ "ModuleRelativePath", "C_Player.h" },
@@ -73,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor = { "hitActor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, hitActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Player_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_MeshPlayer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC_Player_Statics::StaticCppClassTypeInfo = {
@@ -102,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 3599589333);
+	IMPLEMENT_CLASS(AC_Player, 1553745242);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();

@@ -27,6 +27,8 @@ void AC_Player::BeginPlay()
 {
 	Super::BeginPlay();
 	isSprinting = false;
+
+	itemsCollected.Add("AudioRecorder", false);
 }
 
 // Called every frame
@@ -150,9 +152,12 @@ void AC_Player::Interact()
 			}
 			else if (hitActor->ActorHasTag(TEXT("Item")))
 			{
-				if (hitActor->GetActorLabel() == "SM_AudioRecorder")
+				if (hitActor->GetActorLabel() == "SM_AudioRecorder" && itemsCollected["AudioRecorder"] == false)
 				{
 					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Audio recorder clicked"));
+					itemsCollected["AudioRecorder"] = true;
+					const FString command = FString::Printf(TEXT("Item_picked AudioRecoder"));
+					inventoryManager->CallFunctionByNameWithArguments(*command, ar, NULL, true);
 				}
 			}
 		}
