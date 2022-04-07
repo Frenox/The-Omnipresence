@@ -41,12 +41,6 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventoryManager_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventoryManager;
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_itemsCollected_ValueProp;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_itemsCollected_Key_KeyProp;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_itemsCollected_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_itemsCollected;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hitActor_MetaData[];
 #endif
@@ -81,15 +75,6 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager = { "inventoryManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, inventoryManager), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager_MetaData)) };
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_ValueProp = { "itemsCollected", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_Key_KeyProp = { "itemsCollected_Key", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData[] = {
-		{ "Category", "Inventory" },
-		{ "ModuleRelativePath", "C_Player.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected = { "itemsCollected", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, itemsCollected), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData[] = {
 		{ "Category", "BlueprintClass" },
@@ -100,9 +85,6 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Player_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_MeshPlayer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_inventoryManager,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC_Player_Statics::StaticCppClassTypeInfo = {
@@ -132,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 2130789328);
+	IMPLEMENT_CLASS(AC_Player, 1553745242);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();

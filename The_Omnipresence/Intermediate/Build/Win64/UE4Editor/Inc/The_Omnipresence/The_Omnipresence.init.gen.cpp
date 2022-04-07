@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeThe_Omnipresence_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x63C8509F,
+				0x70B1581C,
 				0x74664837,
 				METADATA_PARAMS(nullptr, 0)
 			};

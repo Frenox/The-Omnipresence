@@ -47,8 +47,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Inventory")
 		AActor * inventoryManager;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
-		TMap<FString, bool> itemsCollected;
+	TMap<FString, bool> itemsCollected;
 
 private:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")

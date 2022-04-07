@@ -159,8 +159,6 @@ void AC_Player::Interact()
 					const FString command = FString::Printf(TEXT("Item_picked AudioRecoder"));
 					inventoryManager->CallFunctionByNameWithArguments(*command, ar, NULL, true);
 				}
-
-				hitActor->Destroy();
 			}
 		}
 	}
