@@ -1551,3 +1551,1038 @@ Error: CDO Constructor (The_OmnipresenceGameMode): Failed to find /Game/FirstPer
 [2022.04.07-16.52.37:070][880]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.07-16.52.37:070][880]LogContentValidation: Display: Validating World /Game/Levels/LVL_Intro.LVL_Intro
 [2022.04.07-16.52.37:070][880]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/LVL_Intro_BuiltData.LVL_Intro_BuiltData
+[2022.04.07-16.54.23:630][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.04.07-16.54.23:871][923]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/LVL_MainMap.LVL_MainMap
+[2022.04.07-16.54.23:872][923]Cmd: MAP LOAD FILE="../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.07-16.54.23:872][923]LightingResults: New page: Lighting Build
+[2022.04.07-16.54.23:872][923]LoadErrors: New page: Loading map: LVL_MainMap.umap
+[2022.04.07-16.54.23:873][923]LogWorld: UWorld::CleanupWorld for LVL_Intro, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-16.54.23:873][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-16.54.23:874][923]MapCheck: New page: Map Check
+[2022.04.07-16.54.23:874][923]LightingResults: New page: Lighting Build
+[2022.04.07-16.54.23:880][923]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.07-16.54.23:956][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.04.07-16.54.23:957][923]LogAudio: Display: Audio Device (ID: 1) registered with world 'LVL_MainMap'.
+[2022.04.07-16.54.24:964][923]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.07-16.54.24:965][923]LogAIModule: Creating AISystem for world LVL_MainMap
+[2022.04.07-16.54.24:981][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.04.07-16.54.24:990][923]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.07-16.54.25:007][923]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 16,899ms to complete.
+[2022.04.07-16.54.25:007][923]LogFileHelpers: Loading map 'LVL_MainMap' took 1.135
+[2022.04.07-16.54.32:366][448]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2022.04.07-16.54.41:845][928]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.07-16.54.41:865][928]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.07-16.54.45:020][133]LogContentBrowser: Attempting asset rename: NewFolder -> MainMap
+[2022.04.07-16.54.45:022][133]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.07-16.54.49:148][360]LogContentBrowser: Deferred new asset file creation: NewWaterWavesAsset
+[2022.04.07-16.54.49:160][360]LogContentBrowser: Creating deferred item: NewWaterWavesAsset
+[2022.04.07-16.54.53:912][670]LogContentBrowser: Attempting asset rename: NewWaterWavesAsset -> Water
+[2022.04.07-16.54.54:546][670]LogContentBrowser: End creating deferred item NewWaterWavesAsset
+[2022.04.07-16.54.57:761][820]LogAssetEditorSubsystem: Opening Asset editor for WaterWavesAsset /Game/Levels/MainMap/Water.Water
+[2022.04.07-16.54.57:863][820]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.04.07-16.54.57:989][820]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.04.07-16.54.58:481][820]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2022.04.07-16.55.03:221][929]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.04.07-16.55.03:221][929]LogEditorClassViewer: Warning: Class /Game/FirstPersonCPP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C has parent /Script/TP_FirstPerson.TP_FirstPersonProjectile, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.04.07-16.55.05:795][994]LogSlate: Window 'Water' being destroyed
+[2022.04.07-16.55.05:832][994]LogSlate: Window 'Water' being destroyed
+[2022.04.07-16.55.05:840][994]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-16.55.05:840][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-16.55.20:659][876]LogMaterial: Display: Missing cached shadermap for Water_Material_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 2135A311707C379353546AD3DE3FF777B14C6D03), compiling. 
+[2022.04.07-16.55.20:891][876]LogShaderCompilers: Display: Submitted 161 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.20:894][876]LogMaterial: Display: Missing cached shadermap for Water_Material_River in PCD3D_SM5, Default, SM5 (DDC key hash: FF098311E73F868686DABFC6B6A920BB1B58785E), compiling. 
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 161
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 151
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 141
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 131
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Started 40 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-16.55.21:084][876]LogShaderCompilers: Display: Submitted 161 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.21:121][876]LogMaterial: Display: Missing cached shadermap for M_UnderWater_PostProcess_Volume in PCD3D_SM5, Default, SM5 (DDC key hash: 222F2F395C56052B31D591C193F1A8440AA00B2B), compiling. 
+[2022.04.07-16.55.21:157][876]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.21:162][876]LogMaterial: Display: Missing cached shadermap for Water_Material_River_To_Lake_Transition in PCD3D_SM5, Default, SM5 (DDC key hash: 81EBBA9258516BC9B48ABA5561663E595E5DCF94), compiling. 
+[2022.04.07-16.55.21:357][876]LogShaderCompilers: Display: Submitted 161 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.21:393][876]LogMaterial: Display: Missing cached shadermap for Water_Material_River_To_Ocean_Transition in PCD3D_SM5, Default, SM5 (DDC key hash: 7EBB90617D16AE15DE424104682AD45F7C0BE95E), compiling. 
+[2022.04.07-16.55.21:573][876]LogShaderCompilers: Display: Submitted 161 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:757][927]LogMaterial: Display: Missing cached shadermap for MeshBrush_Angle in PCD3D_SM5, Default, SM5 (DDC key hash: DF8CE5CEB7AC6039EECDEA0EE698C52209A573DF), compiling. 
+[2022.04.07-16.55.22:768][927]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:812][927]LogMaterial: Display: Missing cached shadermap for MeshBrush_Width in PCD3D_SM5, Default, SM5 (DDC key hash: AC6DF47DE9883661E9851C51B3514284FB8A9324), compiling. 
+[2022.04.07-16.55.22:825][927]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:857][927]LogMaterial: Display: Missing cached shadermap for CacheDistanceField in PCD3D_SM5, Default, SM5 (DDC key hash: 06762A99EC454C874419B3BC4B9513123B9DE89B), compiling. 
+[2022.04.07-16.55.22:874][927]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:886][927]LogMaterial: Display: Missing cached shadermap for RenderSplineDepths in PCD3D_SM5, Default, SM5 (DDC key hash: 64F6F558EE2ED3C60EA468A6282E55BC07C52E65), compiling. 
+[2022.04.07-16.55.22:902][927]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:909][927]LogMaterial: Display: Missing cached shadermap for MeshBrush_Weightmap in PCD3D_SM5, Default, SM5 (DDC key hash: C15F032EDE197336064D64DFB9318C5E8537C9D5), compiling. 
+[2022.04.07-16.55.22:920][927]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:927][927]LogMaterial: Display: Missing cached shadermap for CanvasDrawing in PCD3D_SM5, Default, SM5 (DDC key hash: 3FF2679A972643DBBD49AF71C33AD50F968AF1BD), compiling. 
+[2022.04.07-16.55.22:946][927]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:960][927]LogMaterial: Display: Missing cached shadermap for CompositeWaterBodyTexture in PCD3D_SM5, Default, SM5 (DDC key hash: AA20886B9FDBA152CC784D066C2FA758D57C246B), compiling. 
+[2022.04.07-16.55.22:978][927]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.22:987][927]LogMaterial: Display: Missing cached shadermap for MeshBrush_Island in PCD3D_SM5, Default, SM5 (DDC key hash: 265C6603184855B5B4270DAA2F6B1A9E066572B8), compiling. 
+[2022.04.07-16.55.23:001][927]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.23:012][927]LogMaterial: Display: Missing cached shadermap for FinalizeWaterTexture in PCD3D_SM5, Default, SM5 (DDC key hash: A2324EBBDC90B9F35E2B8BD817BFA7B2471B1755), compiling. 
+[2022.04.07-16.55.23:031][927]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.04.07-16.55.49:376][ 34]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.07-16.55.49:376][ 34]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-16.55.49:412][ 34]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-16.55.49:412][ 34]LogShaderCompilers: Display: Total job queries 750, among them cache hits 0 (0.00%)
+[2022.04.07-16.55.49:412][ 34]LogShaderCompilers: Display: Tracking 14 distinct input hashes that result in 12 distinct outputs (85.71%)
+[2022.04.07-16.55.49:412][ 34]LogShaderCompilers: Display: RAM used: 0.09 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.01%
+[2022.04.07-16.55.49:412][ 34]LogShaderCompilers: Display: ================================================
+[2022.04.07-16.55.50:486][ 62]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.07-16.55.50:486][ 62]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-16.55.51:402][ 94]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.04.07-16.55.51:403][ 94]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-16.55.52:219][125]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 495
+[2022.04.07-16.55.52:219][125]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.55.52:399][132]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 485
+[2022.04.07-16.55.52:399][132]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.55.53:682][186]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-16.56.01:421][472]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 475
+[2022.04.07-16.56.01:421][472]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.56.01:751][483]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 465
+[2022.04.07-16.56.01:751][483]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.56.21:602][212]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 455
+[2022.04.07-16.56.21:602][212]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.56.32:562][461]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 445
+[2022.04.07-16.56.32:563][461]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.56.36:383][527]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 435
+[2022.04.07-16.56.36:383][527]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.56.41:055][635]LogSlate: Took 0.001719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.07-16.56.44:872][780]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 425
+[2022.04.07-16.56.44:872][780]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.00:465][353]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 415
+[2022.04.07-16.57.00:465][353]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.06:091][568]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 405
+[2022.04.07-16.57.06:091][568]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.23:026][218]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 395
+[2022.04.07-16.57.23:026][218]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.24:322][267]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 385
+[2022.04.07-16.57.24:322][267]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.34:062][574]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 375
+[2022.04.07-16.57.34:062][574]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.39:253][732]Cmd: DUPLICATE
+[2022.04.07-16.57.39:253][732]Cmd: ACTOR DUPLICATE
+[2022.04.07-16.57.41:478][799]Cmd: TRANSACTION UNDO
+[2022.04.07-16.57.41:478][799]LogEditorTransaction: Undo Duplicate Actors
+[2022.04.07-16.57.41:508][799]PIE: Warning: AttachTo: '/Game/Levels/LVL_MainMap.LVL_MainMap:PersistentLevel.WaterBodyRiver_2.WaterSpline' is not static , cannot attach '/Game/Levels/LVL_MainMap.LVL_MainMap:PersistentLevel.WaterBodyRiver_2.SplineMeshComponent_0' which is static to it. Aborting.
+[2022.04.07-16.57.41:509][799]PIE: Warning: AttachTo: '/Game/Levels/LVL_MainMap.LVL_MainMap:PersistentLevel.WaterBodyRiver_2.WaterSpline' is not static , cannot attach '/Game/Levels/LVL_MainMap.LVL_MainMap:PersistentLevel.WaterBodyRiver_2.SplineMeshComponent_1' which is static to it. Aborting.
+[2022.04.07-16.57.43:421][852]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 365
+[2022.04.07-16.57.43:421][852]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.57.51:872][151]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 355
+[2022.04.07-16.57.51:873][151]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.07:850][716]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 345
+[2022.04.07-16.58.07:850][716]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.08:782][750]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 335
+[2022.04.07-16.58.08:782][750]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.26:248][348]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 325
+[2022.04.07-16.58.26:248][348]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.30:846][520]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 315
+[2022.04.07-16.58.30:846][520]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.31:341][539]Cmd: MODE ROTGRID=0
+[2022.04.07-16.58.37:671][769]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 305
+[2022.04.07-16.58.37:671][769]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.50:206][241]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 295
+[2022.04.07-16.58.50:206][241]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.58.50:293][241]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-16.58.50:293][241]LogShaderCompilers: Display: Total job queries 1983, among them cache hits 1233 (62.18%)
+[2022.04.07-16.58.50:293][241]LogShaderCompilers: Display: Tracking 218 distinct input hashes that result in 149 distinct outputs (68.35%)
+[2022.04.07-16.58.50:293][241]LogShaderCompilers: Display: RAM used: 2.11 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.29%
+[2022.04.07-16.58.50:293][241]LogShaderCompilers: Display: ================================================
+[2022.04.07-16.58.57:440][507]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-16.59.01:715][665]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-16.59.03:011][699]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-16.59.12:857][980]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 285
+[2022.04.07-16.59.12:857][980]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.59.16:908][112]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 275
+[2022.04.07-16.59.16:908][112]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.59.19:701][217]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-16.59.23:395][351]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 265
+[2022.04.07-16.59.23:395][351]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.59.32:810][687]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 255
+[2022.04.07-16.59.32:810][687]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.59.45:650][121]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 245
+[2022.04.07-16.59.45:650][121]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-16.59.48:867][244]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.02:269][732]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 235
+[2022.04.07-17.00.02:269][732]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.03:032][759]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 225
+[2022.04.07-17.00.03:033][759]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.15:111][181]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 215
+[2022.04.07-17.00.15:112][181]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.18:339][293]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.19:072][308]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.22:031][415]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 205
+[2022.04.07-17.00.22:031][415]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.29:468][691]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 195
+[2022.04.07-17.00.29:468][691]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.31:968][781]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.35:202][902]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.41:603][139]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.43:583][212]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.51:901][510]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.00.52:246][522]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 185
+[2022.04.07-17.00.52:246][522]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.55:334][637]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 175
+[2022.04.07-17.00.55:334][637]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.00.59:868][798]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 165
+[2022.04.07-17.00.59:869][798]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.05:688][ 31]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.01.09:805][194]LogEditorViewport: Clicking on Actor (LMB): WaterBodyRiver (WaterBodyRiver)
+[2022.04.07-17.01.13:700][351]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 155
+[2022.04.07-17.01.13:700][351]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.14:337][376]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 145
+[2022.04.07-17.01.14:337][376]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.20:121][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 135
+[2022.04.07-17.01.20:121][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.20:809][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.04.07-17.01.21:888][547]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 125
+[2022.04.07-17.01.21:888][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.26:035][547]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 115
+[2022.04.07-17.01.26:035][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.33:701][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 105
+[2022.04.07-17.01.33:701][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.33:902][547]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 95
+[2022.04.07-17.01.33:902][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.35:804][547]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 85
+[2022.04.07-17.01.35:804][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.37:997][547]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 75
+[2022.04.07-17.01.37:997][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.45:355][547]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 65
+[2022.04.07-17.01.45:355][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.45:355][547]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2022.04.07-17.01.45:355][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.47:678][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 45
+[2022.04.07-17.01.47:678][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.48:363][547]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMapB56B76004B7CF1D0DD99B18F33EA2E58.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap.umap'
+[2022.04.07-17.01.51:032][547]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMap_BuiltData952E0A2148598B5B68BB8DBAFA9168C4.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap_BuiltData.uasset'
+[2022.04.07-17.01.51:062][547]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.07-17.01.51:062][547]LogContentValidation: Display: Validating World /Game/Levels/LVL_MainMap.LVL_MainMap
+[2022.04.07-17.01.51:062][547]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/LVL_MainMap_BuiltData.LVL_MainMap_BuiltData
+[2022.04.07-17.01.51:117][547]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-17.01.51:117][547]LogShaderCompilers: Display: Total job queries 2385, among them cache hits 1635 (68.55%)
+[2022.04.07-17.01.51:118][547]LogShaderCompilers: Display: Tracking 468 distinct input hashes that result in 303 distinct outputs (64.74%)
+[2022.04.07-17.01.51:118][547]LogShaderCompilers: Display: RAM used: 4.62 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.64%
+[2022.04.07-17.01.51:118][547]LogShaderCompilers: Display: ================================================
+[2022.04.07-17.01.53:124][571]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+[2022.04.07-17.01.53:125][571]LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.01.58:611][644]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2022.04.07-17.01.58:611][644]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.00:517][670]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2022.04.07-17.02.00:517][670]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.08:863][803]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2022.04.07-17.02.08:863][803]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.10:594][834]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2022.04.07-17.02.10:594][834]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.10:867][838]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2022.04.07-17.02.10:867][838]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.11:746][852]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2022.04.07-17.02.11:746][852]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.12:293][862]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.07-17.02.12:293][862]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.12:682][870]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.02.12:682][870]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.12:792][872]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.07-17.02.12:792][872]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.02.13:144][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 207
+[2022.04.07-17.02.13:144][879]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.13:533][884]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 197
+[2022.04.07-17.02.13:533][884]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.13:924][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 187
+[2022.04.07-17.02.13:924][891]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.15:284][914]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 177
+[2022.04.07-17.02.15:284][914]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.18:196][ 14]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 167
+[2022.04.07-17.02.18:196][ 14]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.19:582][ 63]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 157
+[2022.04.07-17.02.19:582][ 63]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.19:932][ 75]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 147
+[2022.04.07-17.02.19:933][ 75]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.20:138][ 82]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 137
+[2022.04.07-17.02.20:138][ 82]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.23:409][208]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 127
+[2022.04.07-17.02.23:409][208]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.23:664][219]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 117
+[2022.04.07-17.02.23:664][219]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.27:399][364]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 107
+[2022.04.07-17.02.27:399][364]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.28:598][413]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 97
+[2022.04.07-17.02.28:598][413]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.34:399][646]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.07-17.02.34:417][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.07-17.02.34:417][646]PIE: New page: PIE session: LVL_MainMap (7 avr. 2022 à 21:02:34)
+[2022.04.07-17.02.34:417][646]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.02.34:486][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068593s)
+[2022.04.07-17.02.34:488][646]LogAIModule: Creating AISystem for world LVL_MainMap
+[2022.04.07-17.02.34:489][646]LogPlayLevel: PIE: World Init took: (0.002697s)
+[2022.04.07-17.02.34:489][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LVL_MainMap.LVL_MainMap to /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap (0.071614s)
+[2022.04.07-17.02.34:499][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.04.07-17.02.34:505][646]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.07-17.02.34:505][646]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.07-17.02.34:505][646]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.07-17.02.34:506][646]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.07-17.02.34:506][646]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.07-17.02.34:506][646]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.07-17.02.34:506][646]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.07-17.02.34:512][646]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.07-17.02.34:512][646]LogAudioMixer: Display: 1: FrontRight
+[2022.04.07-17.02.34:532][646]LogAudioMixer: Display: Using Audio Device Haut-parleurs (High Definition Audio Device)
+[2022.04.07-17.02.34:533][646]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.07-17.02.34:533][646]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.07-17.02.34:533][646]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.07-17.02.34:534][646]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.07-17.02.34:534][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.07-17.02.34:534][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.07-17.02.34:537][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.07-17.02.34:537][646]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.07-17.02.34:537][646]LogInit: FAudioDevice initialized.
+[2022.04.07-17.02.34:537][646]LogAudio: Display: Audio Device (ID: 3) registered with world 'LVL_MainMap'.
+[2022.04.07-17.02.34:555][646]LogLoad: Game class is 'GM_Main_C'
+[2022.04.07-17.02.34:562][646]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap up for play (max tick rate 0) at 2022.04.07-19.02.34
+[2022.04.07-17.02.34:568][646]LogWorld: Bringing up level for play took: 0.012089
+[2022.04.07-17.02.34:568][646]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.04.07-17.02.34:576][646]PIE: Server logged in
+[2022.04.07-17.02.34:578][646]PIE: Play in editor total start time 0,164 seconds.
+[2022.04.07-17.02.35:083][669]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 87
+[2022.04.07-17.02.35:083][669]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.41:902][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.02.41:902][ 20]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.02.41:903][ 20]LogWorld: UWorld::CleanupWorld for LVL_MainMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.02.41:904][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.02.41:918][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.07-17.02.42:003][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.02.42:012][ 20]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.07-17.02.42:013][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.02.42:015][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.02.42:018][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.02.42:028][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.04.07-17.02.42:150][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.04.07-17.02.45:015][131]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 77
+[2022.04.07-17.02.45:015][131]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.52:594][432]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 67
+[2022.04.07-17.02.52:594][432]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.53:280][455]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 57
+[2022.04.07-17.02.53:281][455]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.02.58:488][649]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2022.04.07-17.02.58:488][649]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.08:637][ 59]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2022.04.07-17.03.08:637][ 59]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.09:978][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2022.04.07-17.03.09:978][102]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.16:343][347]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2022.04.07-17.03.16:343][347]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.20:704][516]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2022.04.07-17.03.20:704][516]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.24:937][665]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2022.04.07-17.03.24:937][665]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.29:090][814]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2022.04.07-17.03.29:090][814]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.29:583][833]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2022.04.07-17.03.29:583][833]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.30:782][872]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2022.04.07-17.03.30:782][872]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.30:840][874]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.03.30:840][874]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.31:512][898]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.07-17.03.31:512][898]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.03.48:427][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.04.07-17.03.54:406][911]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMapC172E1514DD31F7388E49A9E2205C058.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap.umap'
+[2022.04.07-17.03.55:877][911]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMap_BuiltData0A2FF4F9432B9103F79D67B2DE15B76B.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap_BuiltData.uasset'
+[2022.04.07-17.03.55:896][911]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.07-17.03.55:896][911]LogContentValidation: Display: Validating World /Game/Levels/LVL_MainMap.LVL_MainMap
+[2022.04.07-17.03.55:896][911]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/LVL_MainMap_BuiltData.LVL_MainMap_BuiltData
+[2022.04.07-17.04.24:026][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.07-17.04.24:040][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.07-17.04.24:040][ 19]PIE: New page: PIE session: LVL_MainMap (7 avr. 2022 à 21:04:24)
+[2022.04.07-17.04.24:040][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.04.24:089][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048342s)
+[2022.04.07-17.04.24:090][ 19]LogAIModule: Creating AISystem for world LVL_MainMap
+[2022.04.07-17.04.24:090][ 19]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2022.04.07-17.04.24:090][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LVL_MainMap.LVL_MainMap to /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap (0.049925s)
+[2022.04.07-17.04.24:097][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.04.07-17.04.24:099][ 19]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.07-17.04.24:099][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.07-17.04.24:100][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.07-17.04.24:100][ 19]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.07-17.04.24:100][ 19]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.07-17.04.24:100][ 19]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.07-17.04.24:100][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.07-17.04.24:103][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.07-17.04.24:103][ 19]LogAudioMixer: Display: 1: FrontRight
+[2022.04.07-17.04.24:114][ 19]LogAudioMixer: Display: Using Audio Device Haut-parleurs (High Definition Audio Device)
+[2022.04.07-17.04.24:115][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.07-17.04.24:115][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.07-17.04.24:115][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.07-17.04.24:116][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.07-17.04.24:116][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.07-17.04.24:116][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.07-17.04.24:117][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.07-17.04.24:117][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.07-17.04.24:117][ 19]LogInit: FAudioDevice initialized.
+[2022.04.07-17.04.24:117][ 19]LogAudio: Display: Audio Device (ID: 4) registered with world 'LVL_MainMap'.
+[2022.04.07-17.04.24:127][ 19]LogLoad: Game class is 'GM_Main_C'
+[2022.04.07-17.04.24:132][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap up for play (max tick rate 0) at 2022.04.07-19.04.24
+[2022.04.07-17.04.24:135][ 19]LogWorld: Bringing up level for play took: 0.007314
+[2022.04.07-17.04.24:135][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.04.07-17.04.24:139][ 19]PIE: Server logged in
+[2022.04.07-17.04.24:140][ 19]PIE: Play in editor total start time 0,103 seconds.
+[2022.04.07-17.04.33:429][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.04.33:430][831]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.04.33:430][831]LogWorld: UWorld::CleanupWorld for LVL_MainMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.04.33:431][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.04.33:440][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.07-17.04.33:486][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.04.33:494][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.04.33:494][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.04.33:495][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.04.33:500][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.04.07-17.04.33:573][832]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.04.07-17.04.43:400][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.04.07-17.04.51:194][561]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMapE11826A94C90D209731DB38721E287D9.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap.umap'
+[2022.04.07-17.04.53:082][561]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMap_BuiltDataC9FB27E84342B20897B7949BE107B142.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap_BuiltData.uasset'
+[2022.04.07-17.04.53:103][561]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.07-17.04.53:103][561]LogContentValidation: Display: Validating World /Game/Levels/LVL_MainMap.LVL_MainMap
+[2022.04.07-17.04.53:103][561]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/LVL_MainMap_BuiltData.LVL_MainMap_BuiltData
+[2022.04.07-17.05.13:901][477]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 907E00591AC717E74DC3CAB76A8223C9A662FCEA), compiling. 
+[2022.04.07-17.05.13:944][477]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.04.07-17.05.13:967][477]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2022.04.07-17.05.13:967][477]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2022.04.07-17.05.13:967][477]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2022.04.07-17.05.13:968][477]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2022.04.07-17.05.13:968][477]LogShaderCompilers: Display: Started 25 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.05.13:969][477]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake needed to have new flag set bUsedWithWater !
+[2022.04.07-17.05.13:971][477]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 217856F05EDCAE4FE99ED40FE4D5CAFCC89BBED6), compiling. 
+[2022.04.07-17.05.14:019][477]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.04.07-17.05.18:664][657]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.07-17.05.18:664][657]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.05.18:683][657]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-17.05.18:683][657]LogShaderCompilers: Display: Total job queries 5827, among them cache hits 4995 (85.72%)
+[2022.04.07-17.05.18:683][657]LogShaderCompilers: Display: Tracking 754 distinct input hashes that result in 462 distinct outputs (61.27%)
+[2022.04.07-17.05.18:683][657]LogShaderCompilers: Display: RAM used: 6.44 MB (0.01 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.90%
+[2022.04.07-17.05.18:683][657]LogShaderCompilers: Display: ================================================
+[2022.04.07-17.05.19:459][689]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.04.07-17.05.19:459][689]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.05.19:508][691]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2022.04.07-17.05.19:508][691]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.19:902][708]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2022.04.07-17.05.19:903][708]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.20:430][729]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2022.04.07-17.05.20:430][729]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.21:188][759]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2022.04.07-17.05.21:188][759]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.22:607][817]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.04.07-17.05.22:607][817]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.23:207][839]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2022.04.07-17.05.23:207][839]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.23:538][852]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.07-17.05.23:555][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.07-17.05.23:555][852]PIE: New page: PIE session: LVL_MainMap (7 avr. 2022 à 21:05:23)
+[2022.04.07-17.05.23:555][852]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.05.23:622][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067230s)
+[2022.04.07-17.05.23:624][852]LogAIModule: Creating AISystem for world LVL_MainMap
+[2022.04.07-17.05.23:625][852]LogPlayLevel: PIE: World Init took: (0.002124s)
+[2022.04.07-17.05.23:625][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LVL_MainMap.LVL_MainMap to /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap (0.069688s)
+[2022.04.07-17.05.23:633][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.04.07-17.05.23:638][852]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.07-17.05.23:638][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.07-17.05.23:639][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.07-17.05.23:639][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.07-17.05.23:639][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.07-17.05.23:639][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.07-17.05.23:639][852]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.07-17.05.23:643][852]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.07-17.05.23:643][852]LogAudioMixer: Display: 1: FrontRight
+[2022.04.07-17.05.23:662][852]LogAudioMixer: Display: Using Audio Device Haut-parleurs (High Definition Audio Device)
+[2022.04.07-17.05.23:662][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.07-17.05.23:663][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.07-17.05.23:663][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.07-17.05.23:664][852]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.07-17.05.23:664][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.07-17.05.23:664][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.07-17.05.23:666][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.07-17.05.23:666][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.07-17.05.23:666][852]LogInit: FAudioDevice initialized.
+[2022.04.07-17.05.23:666][852]LogAudio: Display: Audio Device (ID: 5) registered with world 'LVL_MainMap'.
+[2022.04.07-17.05.23:676][852]LogLoad: Game class is 'GM_Main_C'
+[2022.04.07-17.05.23:684][852]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap up for play (max tick rate 0) at 2022.04.07-19.05.23
+[2022.04.07-17.05.23:690][852]LogWorld: Bringing up level for play took: 0.012362
+[2022.04.07-17.05.23:690][852]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.04.07-17.05.23:694][852]PIE: Server logged in
+[2022.04.07-17.05.23:695][852]PIE: Play in editor total start time 0,145 seconds.
+[2022.04.07-17.05.24:020][865]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.07-17.05.24:020][865]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.24:020][865]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.07-17.05.24:020][865]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.24:500][888]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.07-17.05.24:500][888]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.04.07-17.05.34:670][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.05.34:670][771]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.05.34:670][771]LogWorld: UWorld::CleanupWorld for LVL_MainMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.05.34:671][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.05.34:682][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.07-17.05.34:732][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.05.34:738][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.05.34:740][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.05.34:741][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.05.34:749][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.04.07-17.05.34:822][772]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.04.07-17.05.56:518][319]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.07-17.05.56:530][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.07-17.05.56:530][319]PIE: New page: PIE session: LVL_MainMap (7 avr. 2022 à 21:05:56)
+[2022.04.07-17.05.56:530][319]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.05.56:579][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048691s)
+[2022.04.07-17.05.56:580][319]LogAIModule: Creating AISystem for world LVL_MainMap
+[2022.04.07-17.05.56:581][319]LogPlayLevel: PIE: World Init took: (0.001855s)
+[2022.04.07-17.05.56:581][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LVL_MainMap.LVL_MainMap to /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap (0.050763s)
+[2022.04.07-17.05.56:587][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.04.07-17.05.56:590][319]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.07-17.05.56:590][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.07-17.05.56:590][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.07-17.05.56:591][319]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.07-17.05.56:591][319]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.07-17.05.56:591][319]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.07-17.05.56:591][319]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.07-17.05.56:594][319]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.07-17.05.56:594][319]LogAudioMixer: Display: 1: FrontRight
+[2022.04.07-17.05.56:604][319]LogAudioMixer: Display: Using Audio Device Haut-parleurs (High Definition Audio Device)
+[2022.04.07-17.05.56:605][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.07-17.05.56:605][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.07-17.05.56:605][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.07-17.05.56:605][319]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.07-17.05.56:605][319]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.07-17.05.56:605][319]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.07-17.05.56:607][319]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.07-17.05.56:607][319]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.07-17.05.56:607][319]LogInit: FAudioDevice initialized.
+[2022.04.07-17.05.56:607][319]LogAudio: Display: Audio Device (ID: 6) registered with world 'LVL_MainMap'.
+[2022.04.07-17.05.56:615][319]LogLoad: Game class is 'GM_Main_C'
+[2022.04.07-17.05.56:620][319]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LVL_MainMap.LVL_MainMap up for play (max tick rate 0) at 2022.04.07-19.05.56
+[2022.04.07-17.05.56:624][319]LogWorld: Bringing up level for play took: 0.009152
+[2022.04.07-17.05.56:624][319]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.04.07-17.05.56:628][319]PIE: Server logged in
+[2022.04.07-17.05.56:629][319]PIE: Play in editor total start time 0,102 seconds.
+[2022.04.07-17.05.59:931][606]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.07-17.05.59:931][606]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.07-17.06.12:719][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.06.12:719][740]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LVL_MainMap
+[2022.04.07-17.06.12:720][740]LogWorld: UWorld::CleanupWorld for LVL_MainMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.06.12:721][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.06.12:729][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.07-17.06.12:777][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.06.12:786][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.07-17.06.12:786][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.06.12:787][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.06.12:795][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.04.07-17.06.12:873][741]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.04.07-17.06.25:288][381]Cmd: DUPLICATE
+[2022.04.07-17.06.25:288][381]Cmd: ACTOR DUPLICATE
+[2022.04.07-17.06.27:721][516]Cmd: DUPLICATE
+[2022.04.07-17.06.27:721][516]Cmd: ACTOR DUPLICATE
+[2022.04.07-17.06.29:401][621]Cmd: DUPLICATE
+[2022.04.07-17.06.29:402][621]Cmd: ACTOR DUPLICATE
+[2022.04.07-17.06.53:003][836]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceDynamic /Engine/Transient.WaterMID_76
+[2022.04.07-17.06.56:108][958]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake
+[2022.04.07-17.06.56:128][958]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 0380740BF4657678174459FE888966D3FCDAC4EE), compiling. 
+[2022.04.07-17.06.56:271][958]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 2448C4B1F3DEAAD51582EEBA8B896902F2BAEE57), compiling. 
+[2022.04.07-17.06.56:276][958]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 756172B5D9EF88D9CB519191BC5094AF98075909), compiling. 
+[2022.04.07-17.06.56:278][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_13 in PCD3D_SM5, Default, SM5 (DDC key hash: 71E48A85EEF8A48C7398036ED55E4329C4ADEAEF), compiling. 
+[2022.04.07-17.06.56:280][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_14 in PCD3D_SM5, Default, SM5 (DDC key hash: ED02B82CC5396C4B20BAB2296F0172DEA0A0A1E5), compiling. 
+[2022.04.07-17.06.56:281][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 262DC7CC5309D34B4AD58F510F6C8E422AD415C5), compiling. 
+[2022.04.07-17.06.56:283][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_9 in PCD3D_SM5, Default, SM5 (DDC key hash: 6C4838436A1B1909FDD48D18D6EB8274217BE4A1), compiling. 
+[2022.04.07-17.06.56:284][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_10 in PCD3D_SM5, Default, SM5 (DDC key hash: 1E3B978CD1FDC9C438D4459E20C585B227FFCF51), compiling. 
+[2022.04.07-17.06.56:286][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_15 in PCD3D_SM5, Default, SM5 (DDC key hash: BC30F4ACAD741F50227A610D89644C44E3EDC0EB), compiling. 
+[2022.04.07-17.06.56:287][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_16 in PCD3D_SM5, Default, SM5 (DDC key hash: 3610FB922645CEB4A71E91739702B81A19472BC2), compiling. 
+[2022.04.07-17.06.56:289][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_19 in PCD3D_SM5, Default, SM5 (DDC key hash: 8B8CB64E243FCF423487FEF21A9144E8914B5B81), compiling. 
+[2022.04.07-17.06.56:290][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_2 in PCD3D_SM5, Default, SM5 (DDC key hash: C8C8A680234EE93C1F07CFF0CFDCB158CD5D0CBD), compiling. 
+[2022.04.07-17.06.56:292][958]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 9A6B9C90799B669BB7105A4125D3729F08A4601B), compiling. 
+[2022.04.07-17.06.56:311][958]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.06.56:311][958]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.06.56:311][958]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.06.56:317][958]LogSlate: Took 0.001178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.06.56:495][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.06.57:888][ 17]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.06.57:888][ 17]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.06.57:888][ 17]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.07-17.06.57:888][ 17]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.06.59:744][ 91]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.06.59:751][ 91]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.06.59:751][ 91]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.07-17.06.59:751][ 91]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:187][105]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:187][105]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.04.07-17.07.00:187][105]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.04.07-17.07.00:187][105]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:187][105]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:188][105]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:291][107]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:320][108]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:414][111]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.04.07-17.07.00:414][111]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.00:445][112]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.04.07-17.07.00:445][112]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.01:210][135]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.07-17.07.01:210][135]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.01:298][138]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.04.07-17.07.01:298][138]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.01:632][148]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.01:930][156]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.07-17.07.01:930][156]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.02:082][161]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.07.02:083][161]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.02:209][165]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.07-17.07.02:209][165]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.07-17.07.10:589][490]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: B36209AB2AC911C7EE74E7007DFDAF429A29075B), compiling. 
+[2022.04.07-17.07.10:591][490]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 867242302A2CC88075A1C9BC688A859A6A171A67), compiling. 
+[2022.04.07-17.07.10:595][490]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.10:595][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.10:595][490]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.10:636][492]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.10:636][492]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.10:636][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.10:664][493]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.10:665][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.12:784][576]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 5CC44681C555EC4840A0582CD23049E49C6FE2A7), compiling. 
+[2022.04.07-17.07.12:786][576]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8F17756B86779A042ACB9ACDD5AF913143AEB180), compiling. 
+[2022.04.07-17.07.12:789][576]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.12:789][576]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.12:789][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.12:825][578]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.12:825][578]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.12:825][578]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.12:854][579]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.17:447][760]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 3098407DCD6F3E5D011D773211F13DA69F549B77), compiling. 
+[2022.04.07-17.07.17:450][760]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BB2C9BE56C1BF2EA26B83009C390F17A0C252047), compiling. 
+[2022.04.07-17.07.17:453][760]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.17:453][760]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.17:453][760]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.17:488][762]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.17:489][762]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.17:489][762]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.17:518][763]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.18:950][819]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 2EB8B2DDF6BE6C6C42CFDE36B3DADA9BDD52E348), compiling. 
+[2022.04.07-17.07.18:952][819]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C1136F0862C0F74C7627ED5FA3E64063DDD68733), compiling. 
+[2022.04.07-17.07.18:956][819]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.18:956][819]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.18:956][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.18:995][821]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.18:995][821]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.18:995][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.19:023][822]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.19:024][822]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.19:873][855]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 6A898CE51434DFD123B139BB41CCB312FCFBCE50), compiling. 
+[2022.04.07-17.07.19:876][855]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2DEAD17E345827F934C31F21C8883FEBC62C97FA), compiling. 
+[2022.04.07-17.07.19:879][855]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.19:879][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.19:879][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.19:927][857]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.21:375][914]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 412DDA0C75EA8A7777F2E1D71ED82D3EC74C1B6D), compiling. 
+[2022.04.07-17.07.21:378][914]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C1EB831ED655411BB2B6F7E80B12F74C25EC0792), compiling. 
+[2022.04.07-17.07.21:380][914]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.07-17.07.21:386][914]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.07-17.07.21:386][914]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.21:386][914]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.21:435][916]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.23:429][998]LogMaterialEditor: Saving and Compiling material M_Water_Lake
+[2022.04.07-17.07.24:722][998]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 427E9AD6ADD82AB5CF357617A31FCA04747D9BA1), compiling. 
+[2022.04.07-17.07.24:754][998]LogMaterial: Display: Missing cached shadermap for M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 948F4BFC1B08342B9D0AE6C3AF99124A6B4960F1), compiling. 
+[2022.04.07-17.07.24:825][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.04.07-17.07.25:013][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.04.07-17.07.25:679][998]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/M_Water_Lake9878E55148355A19DD0D5FAA9FE008C0.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/StarterContent/Materials/M_Water_Lake.uasset'
+[2022.04.07-17.07.25:696][998]AssetCheck: New page: Asset Save: M_Water_Lake
+[2022.04.07-17.07.25:696][998]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Base pass shader: 183 instructions
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Base pass shader with Surface Lightmap: 210 instructions
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 257 instructions
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2022.04.07-17.07.25:727][998]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.07-17.07.27:529][ 86]LogSlate: Window 'M_Water_Lake' being destroyed
+[2022.04.07-17.07.27:543][ 86]LogSlate: Window 'M_Water_Lake' being destroyed
+[2022.04.07-17.07.27:707][ 86]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.07.27:708][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.07-17.07.33:767][469]MapCheck: New page: Map Check
+[2022.04.07-17.07.33:783][469]LightingResults: New page: Lighting Build - 7 avr. 2022 à 21:07:33
+[2022.04.07-17.07.33:860][469]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.04.07-17.07.33:863][469]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.04.07-17.07.33:863][469]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.04.07-17.07.33:864][469]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.04.07-17.07.33:864][469]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10164
+[2022.04.07-17.07.38:478][469]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2022.04.07-17.07.38:479][469]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.04.07-17.07.38:479][469]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.04.07-17.07.38:479][469]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.04.07-17.07.38:479][469]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.04.07-17.07.38:479][469]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.04.07-17.07.39:693][469]LogEditorBuildUtils: Build time 0:05
+[2022.04.07-17.07.39:837][471]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: 89FD9555934F807F3765709AA10F83CF25F54C62), compiling. 
+[2022.04.07-17.07.39:842][471]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.04.07-17.07.39:843][471]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Water_Lake in PCD3D_SM5, Default, SM5 (DDC key hash: AA2723BF41C0C0193A84956201747055E4F49C61), compiling. 
+[2022.04.07-17.07.39:847][471]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.07-17.07.39:847][471]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.07-17.07.39:847][471]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.07.39:847][471]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.04.07-17.07.40:601][472]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.04.07-17.07.40:601][472]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.04.07-17.07.40:601][472]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.04.07-17.07.40:809][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.04.07-17.08.42:929][595]Job is a success!
+[2022.04.07-17.08.48:188][596]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.639s
+[2022.04.07-17.08.48:188][596]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2022.04.07-17.08.48:188][596]LogVolumetricLightmapImport:      BrickData (all levels) 4.5Mb
+[2022.04.07-17.08.48:188][596]LogVolumetricLightmapImport:      Bricks at depth
+[2022.04.07-17.08.48:189][596]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2022.04.07-17.08.48:189][596]LogVolumetricLightmapImport:          1: 9.8% covering 19.1% of volume
+[2022.04.07-17.08.48:189][596]LogVolumetricLightmapImport:          2: 89.3% covering 2.7% of volume
+[2022.04.07-17.08.48:189][596]LogVolumetricLightmapImport:      Bricks in each level
+[2022.04.07-17.08.48:189][596]LogVolumetricLightmapImport:          LVL_MainMap 			 995 bricks 	 100.0% (Persistent Level)
+[2022.04.07-17.08.50:815][596]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_4 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_5 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_7 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_8 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_6 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_9 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_10 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_12 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_11 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_13 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_14 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_15 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_16 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_17 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_18 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_19 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:816][596]LogTexture: Display: Building textures: HQ_Lightmap1_20 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_21 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_22 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_24 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_27 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_28 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_23 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_26 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_25 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_29 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_30 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_31 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_32 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_33 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_34 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_37 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_38 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_38 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_35 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_36 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_39 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_40 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_40 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_41 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_41 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_42 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_42 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: LQ_Lightmap_1_43 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:817][596]LogTexture: Display: Building textures: HQ_Lightmap1_44 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_43 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_44 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_45 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_45 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_46 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_46 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_47 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_47 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_49 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_48 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_48 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_49 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_50 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_51 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_51 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_52 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_50 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_53 (OODLE_AutoDXT, 128X128)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_53 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: HQ_Lightmap1_54 (OODLE_AutoDXT, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_54 (OODLE_DXT1, 256X256)
+[2022.04.07-17.08.50:818][596]LogTexture: Display: Building textures: LQ_Lightmap_1_52 (OODLE_DXT1, 128X128)
+[2022.04.07-17.08.55:021][596]LogTexture: Display: Building textures: ShadowMapTexture2D_59 (G8, 128X64)
+[2022.04.07-17.08.55:021][596]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_56 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_57 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_60 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_61 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_65 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_58 (G8, 512X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_62 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_64 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_66 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_68 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_70 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_69 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_67 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_77 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_72 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_74 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_76 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_81 (G8, 64X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_79 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_80 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_82 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_71 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_83 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_73 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_63 (G8, 512X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_75 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_84 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_78 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_89 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_86 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_87 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_91 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_88 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_85 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_90 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_92 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_93 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_95 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_96 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_98 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_97 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_99 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_100 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_101 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_102 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_104 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_107 (G8, 64X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_106 (G8, 128X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_103 (G8, 256X64)
+[2022.04.07-17.08.55:022][596]LogTexture: Display: Building textures: ShadowMapTexture2D_109 (G8, 128X64)
+[2022.04.07-17.08.55:023][596]LogTexture: Display: Building textures: ShadowMapTexture2D_108 (G8, 128X64)
+[2022.04.07-17.08.55:023][596]LogTexture: Display: Building textures: ShadowMapTexture2D_105 (G8, 256X64)
+[2022.04.07-17.08.55:023][596]LogTexture: Display: Building textures: ShadowMapTexture2D_110 (G8, 512X32)
+[2022.04.07-17.08.55:023][596]LogTexture: Display: Building textures: ShadowMapTexture2D_94 (G8, 1024X64)
+[2022.04.07-17.08.55:023][596]Lightmass on DESKTOP-RROI739: 1:09 min total, 2.81 sec importing, 916 ms setup, 6.77 sec photons, 58.2 sec processing, 0 ms extra exporting [226/226 mappings]. Threads: 6:47 min total, 3:01 min processing.
+[2022.04.07-17.08.55:043][596]LogStaticLightingSystem: LVL_MainMap_BuiltData storing lightmap data for 226 meshes in 76 LightmapResourceClusters (3.0 Meshes per cluster).
+[2022.04.07-17.08.55:176][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.04.07-17.08.55:187][596]LogStaticLightingSystem: Illumination: 1:21 min (502 ms encoding lightmaps, 189 ms encoding shadowmaps)
+[2022.04.07-17.08.55:187][596]LogStaticLightingSystem: Lightmap texture memory:  5.5 MB (5.5 MB streaming, 0.0 MB non-streaming), 108 textures
+[2022.04.07-17.08.55:187][596]LogStaticLightingSystem: Shadowmap texture memory: 1.1 MB (1.1 MB streaming, 0.0 MB non-streaming), 56 textures
+[2022.04.07-17.08.55:520][596]DumpUnbuiltLightIteractions
+[2022.04.07-17.08.55:520][596]Lights with unbuilt interactions: 0
+[2022.04.07-17.08.55:520][596]
+[2022.04.07-17.08.55:520][596]Primitives with unbuilt interactions: 0
+[2022.04.07-17.08.55:556][596]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-17.08.55:556][596]LogShaderCompilers: Display: Total job queries 6090, among them cache hits 5238 (86.01%)
+[2022.04.07-17.08.55:556][596]LogShaderCompilers: Display: Tracking 827 distinct input hashes that result in 498 distinct outputs (60.22%)
+[2022.04.07-17.08.55:556][596]LogShaderCompilers: Display: RAM used: 6.66 MB (0.01 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.93%
+[2022.04.07-17.08.55:556][596]LogShaderCompilers: Display: ================================================
+[2022.04.07-17.08.55:773][596]LogTexture: Display: Building textures: NewReflectionComponentTextureD41A755A41264B9486CC619350EA7AB2 (BGRA8, 128X128)
+[2022.04.07-17.08.55:865][597]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.04.07-17.08.55:865][597]MapCheck: New page: LVL_MainMap - 7 avr. 2022 à 21:08:55
+[2022.04.07-17.08.55:865][597]MapCheck: Error: Landscape2_WaterBrushManager_0 This brush requires a Landscape. Add one to the map or remove the brush actor. 
+[2022.04.07-17.08.55:865][597]MapCheck: Error: Landscape2_WaterBrushManager_0 The water brush requires a Landscape with Edit Layers enabled. 
+[2022.04.07-17.08.55:865][597]MapCheck: Error: Landscape2_WaterBrushManager_0 The water brush is missing from the owning landscape edit layers. 
+[2022.04.07-17.08.55:866][597]MapCheck: Map check complete: 3 Error(s), 0 Warning(s), took 0,871ms to complete.
+[2022.04.07-17.09.25:209][117]LogSlate: Window 'Message Log' being destroyed
+[2022.04.07-17.09.25:231][117]LogSlate: Window 'Message Log' being destroyed
+[2022.04.07-17.09.42:043][788]LogSlate: Window 'Message Log' being destroyed
+[2022.04.07-17.09.42:066][788]LogSlate: Window 'Message Log' being destroyed
+[2022.04.07-17.09.43:933][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.04.07-17.10.17:283][872]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMap33DCB2A84413B3E31048F7B934E84225.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap.umap'
+[2022.04.07-17.10.26:943][872]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/LVL_MainMap_BuiltDataF69283234160EE8DFD1DBD929DE54A02.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/LVL_MainMap_BuiltData.uasset'
+[2022.04.07-17.10.26:982][872]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.07-17.10.26:982][872]LogContentValidation: Display: Validating World /Game/Levels/LVL_MainMap.LVL_MainMap
+[2022.04.07-17.10.26:982][872]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/LVL_MainMap_BuiltData.LVL_MainMap_BuiltData
+[2022.04.07-17.10.38:337][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.04.07-17.10.39:597][692]LogSlate: Window 'Save Content' being destroyed
+[2022.04.07-17.10.39:730][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMap/Water" FILE="../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/MainMap/Water.uasset" SILENT=true
+[2022.04.07-17.10.40:244][692]LogSavePackage: Moving '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Saved/Water0EA59C10400F5D0EB8A51EA2A37CC184.tmp' to '../../../../Users/maxim/Desktop/The Omnipresence/The-Omnipresence/The_Omnipresence/Content/Levels/MainMap/Water.uasset'
+[2022.04.07-17.10.40:930][692]LogSlate: Window 'The_Omnipresence - Unreal Editor' being destroyed
+[2022.04.07-17.10.41:442][692]AssetCheck: New page: Asset Save: Water
+[2022.04.07-17.10.41:442][692]LogContentValidation: Display: Validating WaterWavesAsset /Game/Levels/MainMap/Water.Water
+[2022.04.07-17.10.41:443][693]Cmd: QUIT_EDITOR
+[2022.04.07-17.10.41:443][693]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.07-17.10.41:529][693]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.07-17.10.42:602][693]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.07-17.10.42:602][693]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.07-17.10.42:602][693]LogAudio: Display: Audio Device unregistered from world 'LVL_MainMap'.
+[2022.04.07-17.10.42:634][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.10.42:635][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.07-17.10.42:645][693]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.07-17.10.42:699][693]LogExit: Preparing to exit.
+[2022.04.07-17.10.43:247][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:926][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.04.07-17.10.44:927][693]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.07-17.10.45:496][693]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.07-17.10.45:765][693]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.04.07-17.10.45:813][693]LogExit: Editor shut down
+[2022.04.07-17.10.45:814][693]LogExit: Transaction tracking system shut down
+[2022.04.07-17.10.49:819][693]LogExit: Object subsystem successfully closed.
+[2022.04.07-17.10.49:835][693]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.07-17.10.49:835][693]LogShaderCompilers: Display: Total job queries 6090, among them cache hits 5238 (86.01%)
+[2022.04.07-17.10.49:835][693]LogShaderCompilers: Display: Tracking 827 distinct input hashes that result in 498 distinct outputs (60.22%)
+[2022.04.07-17.10.49:835][693]LogShaderCompilers: Display: RAM used: 6.66 MB (0.01 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.93%
+[2022.04.07-17.10.49:835][693]LogShaderCompilers: Display: ================================================
+[2022.04.07-17.10.50:481][693]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.07-17.10.54:351][693]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (914)
+[2022.04.07-17.10.54:351][693]LogModuleManager: Shutting down and abandoning module Voice (912)
+[2022.04.07-17.10.54:378][693]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (910)
+[2022.04.07-17.10.54:378][693]LogModuleManager: Shutting down and abandoning module AddContentDialog (908)
+[2022.04.07-17.10.54:490][693]LogModuleManager: Shutting down and abandoning module WidgetCarousel (907)
+[2022.04.07-17.10.54:490][693]LogModuleManager: Shutting down and abandoning module SceneOutliner (904)
+[2022.04.07-17.10.54:490][693]LogModuleManager: Shutting down and abandoning module StatsViewer (902)
+[2022.04.07-17.10.54:514][693]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (900)
+[2022.04.07-17.10.54:526][693]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (898)
+[2022.04.07-17.10.54:526][693]LogModuleManager: Shutting down and abandoning module AutomationWorker (896)
+[2022.04.07-17.10.54:538][693]LogModuleManager: Shutting down and abandoning module SteamVREditor (894)
+[2022.04.07-17.10.54:538][693]LogModuleManager: Shutting down and abandoning module OculusMR (892)
+[2022.04.07-17.10.54:538][693]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (890)
+[2022.04.07-17.10.54:859][693]LogModuleManager: Shutting down and abandoning module TakeRecorder (889)
+[2022.04.07-17.10.54:923][693]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (886)
+[2022.04.07-17.10.54:939][693]LogModuleManager: Shutting down and abandoning module TakesCore (884)
+[2022.04.07-17.10.54:971][693]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (882)
+[2022.04.07-17.10.55:017][693]LogModuleManager: Shutting down and abandoning module OpenXRInput (880)
+[2022.04.07-17.10.55:064][693]LogModuleManager: Shutting down and abandoning module GooglePADEditor (878)
+[2022.04.07-17.10.55:064][693]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (876)
+[2022.04.07-17.10.55:064][693]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (874)
+[2022.04.07-17.10.55:076][693]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (872)
+[2022.04.07-17.10.55:088][693]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (870)
+[2022.04.07-17.10.55:112][693]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (868)
+[2022.04.07-17.10.55:144][693]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (866)
+[2022.04.07-17.10.55:144][693]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (864)
+[2022.04.07-17.10.55:144][693]LogModuleManager: Shutting down and abandoning module WebMMedia (862)
+[2022.04.07-17.10.55:145][693]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (860)
+[2022.04.07-17.10.55:145][693]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (858)
+[2022.04.07-17.10.55:145][693]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (856)
