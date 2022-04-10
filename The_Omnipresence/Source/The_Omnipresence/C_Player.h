@@ -28,18 +28,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void MoveForward(float value);
-	void MoveRight(float value);
-
-	void TurnAtRate(float value);
-	void LookUpAtRate(float value);
-
-	void Sprint();
-	void StopSprinting();
-
-	void ToggleCrouch();
-
-	void Interact();
+	bool isInventoryOpen;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USkeletalMeshComponent* MeshPlayer;
@@ -53,6 +42,20 @@ public:
 private:
 	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
 		AActor* hitActor;
+
+	void MoveForward(float value);
+	void MoveRight(float value);
+
+	void TurnAtRate(float value);
+	void LookUpAtRate(float value);
+
+	void Sprint();
+	void StopSprinting();
+
+	void ToggleCrouch();
+
+	void Interact();
+	void InventoryToggle();
 
 	bool isSprinting;
 	bool isCrouching;

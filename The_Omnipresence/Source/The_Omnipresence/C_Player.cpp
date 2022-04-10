@@ -48,10 +48,8 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		InputComponent->BindAxis("MoveForward", this, &AC_Player::MoveForward);
 		InputComponent->BindAxis("MoveRight", this, &AC_Player::MoveRight);
 
-		InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-		InputComponent->BindAxis("TurnRate", this, &AC_Player::TurnAtRate);
-		InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-		InputComponent->BindAxis("LookUpRate", this, &AC_Player::LookUpAtRate);
+		InputComponent->BindAxis("Turn", this, &AC_Player::TurnAtRate);
+		InputComponent->BindAxis("LookUp", this, &AC_Player::LookUpAtRate);
 
 		InputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 		InputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -62,32 +60,36 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 		InputComponent->BindAction("Crouch", IE_Pressed, this, &AC_Player::ToggleCrouch);
 
 		InputComponent->BindAction("Interact", IE_Pressed, this, &AC_Player::Interact);
+		InputComponent->BindAction("Inventory", IE_Pressed, this, &AC_Player::InventoryToggle);
 	}
 }
 
 void AC_Player::MoveForward(float value)
 {
-	if (value < 0.0f)
+	if (isInventoryOpen == false)
 	{
-		// add movement in that direction
-		AddMovementInput(GetActorForwardVector(), value);
-	}
-	else
-	{
-		if (isSprinting == true)
+		if (value < 0.0f)
 		{
-			AddMovementInput(GetActorForwardVector(), value * 2.5f);
+			// add movement in that direction
+			AddMovementInput(GetActorForwardVector(), value);
 		}
 		else
 		{
-			AddMovementInput(GetActorForwardVector(), value * 1.5f);
+			if (isSprinting == true)
+			{
+				AddMovementInput(GetActorForwardVector(), value * 2.5f);
+			}
+			else
+			{
+				AddMovementInput(GetActorForwardVector(), value * 1.5f);
+			}
 		}
 	}
 }
 
 void AC_Player::MoveRight(float value)
 {
-	if (value != 0.0f)
+	if (value != 0.0f && isInventoryOpen == false)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), value);
@@ -96,12 +98,20 @@ void AC_Player::MoveRight(float value)
 
 void AC_Player::TurnAtRate(float value)
 {
-	AddControllerYawInput(value * 45.f * GetWorld()->GetDeltaSeconds());
+	if (isInventoryOpen == false)
+	{
+		APlayerController* const PC = CastChecked<APlayerController>(Controller);
+		PC->AddYawInput(value);
+	}
 }
 
 void AC_Player::LookUpAtRate(float value)
 {
-	AddControllerPitchInput(value * 45.f * GetWorld()->GetDeltaSeconds());
+	if (isInventoryOpen == false)
+	{
+		APlayerController* const PC = CastChecked<APlayerController>(Controller);
+		PC->AddPitchInput(value);
+	}
 }
 
 void AC_Player::Sprint()
@@ -125,6 +135,14 @@ void AC_Player::ToggleCrouch()
 		Crouch();
 	}
 	isCrouching = !isCrouching;
+}
+
+void AC_Player::InventoryToggle()
+{
+	isInventoryOpen = !isInventoryOpen;
+	FOutputDeviceNull ar;
+	const FString command = FString::Printf(TEXT("InventoryToggle"));
+	inventoryManager->CallFunctionByNameWithArguments(*command, ar, NULL, true);
 }
 
 void AC_Player::Interact()

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\The_Omnipresence.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9A766148-C7B2-45A0-B91E-4EADE2DC4989}</UniqueIdentifier>
+      <UniqueIdentifier>{9B915F49-E3AC-4616-8C9B-B68AAB2CA5C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\The_Omnipresence.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\GrassLandscape.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A33C61FB-AD03-4654-998D-22C818AB8B87}</UniqueIdentifier>
+      <UniqueIdentifier>{F2296762-4C76-4BC8-A5A5-D342FEF8DBEF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\The_Omnipresence">
-      <UniqueIdentifier>{6B3B0D22-FA50-4B4E-B476-C3A0BE8F9E4C}</UniqueIdentifier>
+      <UniqueIdentifier>{42B2348E-B9FE-47B5-8EAD-7C661E845AC0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\The_Omnipresence\C_HouseDoor.cpp">
       <Filter>Source\The_Omnipresence</Filter>
