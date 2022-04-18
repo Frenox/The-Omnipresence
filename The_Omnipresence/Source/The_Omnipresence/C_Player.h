@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/Character.h"
 #include "Misc/OutPutDeviceNull.h"
 
 #include "C_Player.generated.h"
