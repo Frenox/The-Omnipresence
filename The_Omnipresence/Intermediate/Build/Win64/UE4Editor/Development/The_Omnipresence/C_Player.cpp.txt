@@ -7,6 +7,9 @@ C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutPutDeviceNull.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+C:\UE_4.27\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+C:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
 C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Inc\The_Omnipresence\C_Player.generated.h
 C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
 C:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h

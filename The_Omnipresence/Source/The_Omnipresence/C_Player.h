@@ -6,8 +6,21 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/Character.h"
 #include "Misc/OutPutDeviceNull.h"
+#include "Engine/DataTable.h"
 
 #include "C_Player.generated.h"
+
+USTRUCT(BlueprintType)
+struct FItemsMeshes : public FTableRowBase
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FText Category;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		UStaticMesh* Mesh;
+};
 
 UCLASS()
 class THE_OMNIPRESENCE_API AC_Player : public ACharacter
@@ -33,6 +46,8 @@ public:
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USkeletalMeshComponent* MeshPlayer;
+	UPROPERTY(EditAnywhere, Category = "Inventory")
+		UStaticMeshComponent* MeshItem;
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
 		AActor * inventoryManager;
@@ -60,4 +75,7 @@ private:
 
 	bool isSprinting;
 	bool isCrouching;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inventory", meta = (AllowPrivateAccess = true))
+		class UDataTable* ItemsDataTable;
 };

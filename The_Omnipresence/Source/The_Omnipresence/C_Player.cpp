@@ -14,12 +14,22 @@ AC_Player::AC_Player()
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
 	MeshPlayer = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
-	MeshPlayer->SetOnlyOwnerSee(true);
 	MeshPlayer->SetupAttachment(RootComponent);
+	const ConstructorHelpers::FObjectFinder<USkeletalMesh> MeshPlr(TEXT("SkeletalMesh'/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms'"));
+	MeshPlayer->SetSkeletalMesh(MeshPlr.Object);
 	MeshPlayer->bCastDynamicShadow = false;
 	MeshPlayer->CastShadow = false;
 	MeshPlayer->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
 	MeshPlayer->SetRelativeLocation(FVector(0.0f, 0.0f, -95.0f));
+
+	MeshItem = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
+	MeshItem->SetupAttachment(RootComponent);
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("StaticMesh'/Game/Models/Items/SM_AudioRecorder.SM_AudioRecorder'"));
+	MeshItem->SetStaticMesh(MeshObj.Object);
+	MeshItem->SetRelativeRotation(FRotator(0.0f, 0.0f, 90.0f));
+	MeshItem->SetRelativeLocation(FVector(26.0f, 27.0f, 0.0f));
+	MeshItem->SetRelativeScale3D(FVector(0.3f, 0.3f, 0.3f));
+
 }
 
 // Called when the game starts or when spawned
@@ -29,6 +39,8 @@ void AC_Player::BeginPlay()
 	isSprinting = false;
 
 	itemsCollected.Add("AudioRecorder", false);
+	//TArray<FName> ClassNames = ItemsDataTable->GetRowNames();
+	//FItemsMeshes* Row = ItemsDataTable->FindRow<FItemsMeshes>(FName("AudioRecorder"), "", true);
 }
 
 // Called every frame
