@@ -27,6 +27,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
+	UPROPERTY(EditAnywhere, Category = "Interaction")
+		UStaticMeshComponent* ConeIntercation;
+
 	UFUNCTION(BlueprintCallable, Category = "Movements")
 		void StartMove(int mvmt);
 
@@ -41,4 +44,7 @@ private:
 	int testMove;
 	int moveForward;
 	int moveRight;
+
+	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
+		AActor* hitActor;
 };

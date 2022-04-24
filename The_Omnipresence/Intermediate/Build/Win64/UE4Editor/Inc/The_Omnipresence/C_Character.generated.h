@@ -70,7 +70,11 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC_Character)
 
 
-#define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_PRIVATE_PROPERTY_OFFSET
+#define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ConeIntercation() { return STRUCT_OFFSET(AC_Character, ConeIntercation); } \
+	FORCEINLINE static uint32 __PPO__hitActor() { return STRUCT_OFFSET(AC_Character, hitActor); }
+
+
 #define The_Omnipresence_Source_The_Omnipresence_C_Character_h_9_PROLOG
 #define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

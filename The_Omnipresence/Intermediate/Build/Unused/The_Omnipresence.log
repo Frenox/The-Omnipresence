@@ -1,18 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence).
-  Parsing headers for The_OmnipresenceEditor
-    Running UnrealHeaderTool "C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\The_Omnipresence.uproject" "C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\The_OmnipresenceEditor\Development\The_OmnipresenceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\maxim\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for The_OmnipresenceEditor in 4,68653 seconds
   Building The_OmnipresenceEditor...
   Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.22000.0 SDK (D:\).
-  Building 6 actions with 8 processes...
-    [1/6] The_Omnipresence.init.gen.cpp
-    [2/6] C_Character.cpp
-    [3/6] C_Character.gen.cpp
-    [4/6] UE4Editor-The_Omnipresence-0031.lib
-       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0031.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0031.exp
-    [5/6] UE4Editor-The_Omnipresence-0031.dll
-       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0031.suppressed.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0031.suppressed.exp
-    [6/6] The_OmnipresenceEditor.target
-  Total time in Parallel executor: 2,08 seconds
-  Total execution time: 7,85 seconds
+  Building 4 actions with 8 processes...
+    [1/4] C_Character.cpp
+    [2/4] UE4Editor-The_Omnipresence-0049.lib
+       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.exp
+    [3/4] UE4Editor-The_Omnipresence-0049.dll
+       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.suppressed.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.suppressed.exp
+    [4/4] The_OmnipresenceEditor.target
+  Total time in Parallel executor: 3,00 seconds
+  Total execution time: 4,52 seconds

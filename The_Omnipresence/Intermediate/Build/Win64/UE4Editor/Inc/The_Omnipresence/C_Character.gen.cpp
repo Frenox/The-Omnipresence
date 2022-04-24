@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 	THE_OMNIPRESENCE_API UClass* Z_Construct_UClass_AC_Character();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_The_Omnipresence();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AC_Character::execMoveRight)
 	{
@@ -162,6 +164,15 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConeIntercation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConeIntercation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hitActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hitActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -181,6 +192,25 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 		{ "ModuleRelativePath", "C_Character.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation_MetaData[] = {
+		{ "Category", "Interaction" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "C_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation = { "ConeIntercation", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Character, ConeIntercation), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor_MetaData[] = {
+		{ "Category", "BlueprintClass" },
+		{ "ModuleRelativePath", "C_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor = { "hitActor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Character, hitActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC_Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC_Character>::IsAbstract,
 	};
@@ -190,11 +220,11 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_AC_Character_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AC_Character_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::Class_MetaDataParams))
@@ -208,7 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Character, 418745082);
+	IMPLEMENT_CLASS(AC_Character, 2183034581);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Character>()
 	{
 		return AC_Character::StaticClass();
