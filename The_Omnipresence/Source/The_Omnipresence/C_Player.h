@@ -50,10 +50,13 @@ public:
 		UStaticMeshComponent* MeshItem;
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
-		AActor * inventoryManager;
+		AActor* inventoryManager;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
 		TMap<FString, bool> itemsCollected;
+
+	UPROPERTY(EditAnywhere, Category = "Missions")
+		AActor* missionsManager;
 
 private:
 	UPROPERTY(EditAnywhere, Category = "HitActor")

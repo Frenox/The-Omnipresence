@@ -185,10 +185,11 @@ void AC_Player::Interact()
 			{
 				if (hitActor->GetActorLabel() == "SM_AudioRecorder" && itemsCollected["AudioRecorder"] == false)
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Audio recorder clicked"));
+					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready1")), ar, NULL, true);
+					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger AudioRecorder")), ar, NULL, true);
+					
 					itemsCollected["AudioRecorder"] = true;
-					const FString command = FString::Printf(TEXT("Item_picked AudioRecoder"));
-					inventoryManager->CallFunctionByNameWithArguments(*command, ar, NULL, true);
+					inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("Item_picked AudioRecorder")), ar, NULL, true);
 				}
 
 				hitActor->Destroy();

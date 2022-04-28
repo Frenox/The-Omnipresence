@@ -156,6 +156,10 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 #endif
 		static const UE4CodeGen_Private::FMapPropertyParams NewProp_itemsCollected;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_missionsManager_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_missionsManager;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hitActor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hitActor;
@@ -211,6 +215,13 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 #endif
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected = { "itemsCollected", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, itemsCollected), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_missionsManager_MetaData[] = {
+		{ "Category", "Missions" },
+		{ "ModuleRelativePath", "C_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_missionsManager = { "missionsManager", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, missionsManager), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_missionsManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_missionsManager_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData[] = {
 		{ "Category", "HitActor" },
 		{ "ModuleRelativePath", "C_Player.h" },
@@ -232,6 +243,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_ValueProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_missionsManager,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_ItemsDataTable,
 	};
@@ -262,7 +274,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 4268770354);
+	IMPLEMENT_CLASS(AC_Player, 662375759);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();
