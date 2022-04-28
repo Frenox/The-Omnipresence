@@ -31,9 +31,6 @@ private:
 		UStaticMeshComponent* ConeIntercation;
 
 	UFUNCTION(BlueprintCallable, Category = "Movements")
-		void StartMove(int mvmt);
-
-	UFUNCTION(BlueprintCallable, Category = "Movements")
 		void MoveForward(float value);
 	UFUNCTION(BlueprintCallable, Category = "Movements")
 		void MoveRight(float value);

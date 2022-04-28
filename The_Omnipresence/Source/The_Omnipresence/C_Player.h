@@ -56,7 +56,7 @@ public:
 		TMap<FString, bool> itemsCollected;
 
 private:
-	UPROPERTY(EditAnywhere, Category = "BlueprintClass")
+	UPROPERTY(EditAnywhere, Category = "HitActor")
 		AActor* hitActor;
 
 	void MoveForward(float value);

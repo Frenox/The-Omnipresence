@@ -17,15 +17,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward); \
-	DECLARE_FUNCTION(execStartMove);
+	DECLARE_FUNCTION(execMoveForward);
 
 
 #define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward); \
-	DECLARE_FUNCTION(execStartMove);
+	DECLARE_FUNCTION(execMoveForward);
 
 
 #define The_Omnipresence_Source_The_Omnipresence_C_Character_h_12_INCLASS_NO_PURE_DECLS \

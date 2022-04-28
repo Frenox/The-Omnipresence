@@ -1,12 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence).
   Building The_OmnipresenceEditor...
   Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.22000.0 SDK (D:\).
-  Building 4 actions with 8 processes...
-    [1/4] C_Character.cpp
-    [2/4] UE4Editor-The_Omnipresence-0049.lib
-       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.exp
-    [3/4] UE4Editor-The_Omnipresence-0049.dll
-       Création de la bibliothèque C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.suppressed.lib et de l'objet C:\Users\maxim\Desktop\The Omnipresence\The-Omnipresence\The_Omnipresence\Intermediate\Build\Win64\UE4Editor\Development\The_Omnipresence\UE4Editor-The_Omnipresence-0049.suppressed.exp
-    [4/4] The_OmnipresenceEditor.target
-  Total time in Parallel executor: 3,00 seconds
-  Total execution time: 4,52 seconds
+  Building 1 action with 8 processes...
+    [1/1] The_OmnipresenceEditor.target
+  Total time in Parallel executor: 0,27 seconds
+  Total execution time: 1,42 seconds

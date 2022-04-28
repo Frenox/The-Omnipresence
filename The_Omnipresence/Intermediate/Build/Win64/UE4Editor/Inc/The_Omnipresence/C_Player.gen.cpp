@@ -212,7 +212,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected = { "itemsCollected", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, itemsCollected), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_itemsCollected_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_hitActor_MetaData[] = {
-		{ "Category", "BlueprintClass" },
+		{ "Category", "HitActor" },
 		{ "ModuleRelativePath", "C_Player.h" },
 	};
 #endif
@@ -262,7 +262,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 3045836304);
+	IMPLEMENT_CLASS(AC_Player, 4268770354);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();

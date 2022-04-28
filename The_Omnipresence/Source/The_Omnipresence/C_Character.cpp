@@ -34,26 +34,6 @@ void AC_Character::BeginPlay()
 void AC_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (moveForward > 0)
-	{
-		AC_Character::MoveForward(1.0f);
-		moveForward--;
-	}
-	else if (moveForward < 0)
-	{
-		AC_Character::MoveForward(-1.0f);
-		moveForward++;
-	}
-	else if (moveRight > 0)
-	{
-		AC_Character::MoveRight(1.0f);
-		moveRight--;
-	}
-	else if (moveRight < 0)
-	{
-		AC_Character::MoveRight(-1.0f);
-		moveRight++;
-	}
 
 	FVector loc;
 	FRotator rot;
@@ -85,27 +65,6 @@ void AC_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-}
-
-void AC_Character::StartMove(int mvmt)
-{
-	switch (mvmt)
-	{
-	case(0):
-		moveForward = FMath::RandRange(10, 30);
-		break;
-	case(1):
-		moveForward = FMath::RandRange(-10, -30);
-		break;
-	case(2):
-		moveRight = FMath::RandRange(10, 30);
-		break;
-	case(3):
-		moveRight = FMath::RandRange(-10, -30);
-		break;
-	default:
-		break;
-	}
 }
 
 void AC_Character::MoveForward(float value)

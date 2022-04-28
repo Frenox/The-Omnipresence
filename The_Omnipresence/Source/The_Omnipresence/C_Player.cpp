@@ -93,7 +93,7 @@ void AC_Player::MoveForward(float value)
 			}
 			else
 			{
-				AddMovementInput(GetActorForwardVector(), value * 1.5f);
+				AddMovementInput(GetActorForwardVector(), value * 1.0f);
 			}
 		}
 	}
@@ -177,6 +177,7 @@ void AC_Player::Interact()
 		{
 			if (hitActor->ActorHasTag(TEXT("HouseDoor")))
 			{
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Need to finish interface thing"));
 				const FString command = FString::Printf(TEXT("DoorInteract"));
 				hitActor->CallFunctionByNameWithArguments(*command, ar, NULL, true);
 			}
