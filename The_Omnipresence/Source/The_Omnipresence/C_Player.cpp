@@ -77,6 +77,7 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	}
 }
 
+
 void AC_Player::MoveForward(float value)
 {
 	if (isInventoryOpen == false)
@@ -176,15 +177,15 @@ void AC_Player::Interact()
 		hitActor = hit.GetActor();
 		if (hitActor)
 		{
-			if (hitActor->ActorHasTag(TEXT("HouseDoor")))
+			if (hitActor->ActorHasTag(TEXT("Interactables")))
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Need to finish interface thing"));
-				const FString command = FString::Printf(TEXT("DoorInteract"));
-				hitActor->CallFunctionByNameWithArguments(*command, ar, NULL, true);
+				this->CallFunctionByNameWithArguments(*(TEXT("Interaction ") + hitActor->GetActorLabel()), ar, NULL, true);
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Need to finish interface"));
 			}
-			else if (hitActor->ActorHasTag(TEXT("Item")))
+			
+			if (hitActor->ActorHasTag(TEXT("Item")))
 			{
-				if (hitActor->GetActorLabel() == "SM_AudioRecorder" && itemsCollected["AudioRecorder"] == false)
+				if (hitActor->GetActorLabel() == "BP_AudioRecorder" && itemsCollected["AudioRecorder"] == false)
 				{
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready1")), ar, NULL, true);
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger AudioRecorder")), ar, NULL, true);
@@ -197,7 +198,6 @@ void AC_Player::Interact()
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready2")), ar, NULL, true);
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger Lenses")), ar, NULL, true);
 					
-					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Lenses Picked"));
 					itemsCollected["Lenses"] = true;
 					inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("Item_picked Lenses")), ar, NULL, true);
 				}
