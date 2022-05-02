@@ -39,7 +39,7 @@ void AC_Player::BeginPlay()
 	isSprinting = false;
 
 	itemsCollected.Add("AudioRecorder", false);
-	itemsCollected.Add("Lenses", false);
+	itemsCollected.Add("LensesCase", false);
 	//TArray<FName> ClassNames = ItemsDataTable->GetRowNames();
 	//FItemsMeshes* Row = ItemsDataTable->FindRow<FItemsMeshes>(FName("AudioRecorder"), "", true);
 }
@@ -180,19 +180,10 @@ void AC_Player::Interact()
 			if (hitActor->ActorHasTag(TEXT("Interactables")))
 			{
 				this->CallFunctionByNameWithArguments(*(TEXT("Interaction ") + hitActor->GetActorLabel()), ar, NULL, true);
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Need to finish interface"));
 			}
 			
 			if (hitActor->ActorHasTag(TEXT("Item")))
 			{
-				if (hitActor->GetActorLabel() == "BP_LensesCase" && itemsCollected["Lenses"] == false)
-				{
-					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready2")), ar, NULL, true);
-					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger Lenses")), ar, NULL, true);
-					
-					itemsCollected["Lenses"] = true;
-					inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("Item_picked Lenses")), ar, NULL, true);
-				}
 
 				hitActor->Destroy();
 			}
