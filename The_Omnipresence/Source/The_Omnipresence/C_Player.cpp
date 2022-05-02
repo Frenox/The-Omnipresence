@@ -185,15 +185,7 @@ void AC_Player::Interact()
 			
 			if (hitActor->ActorHasTag(TEXT("Item")))
 			{
-				if (hitActor->GetActorLabel() == "BP_AudioRecorder" && itemsCollected["AudioRecorder"] == false)
-				{
-					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready1")), ar, NULL, true);
-					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger AudioRecorder")), ar, NULL, true);
-					
-					itemsCollected["AudioRecorder"] = true;
-					inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("Item_picked AudioRecorder")), ar, NULL, true);
-				}
-				else if (hitActor->GetActorLabel() == "BP_LensesCase" && itemsCollected["Lenses"] == false)
+				if (hitActor->GetActorLabel() == "BP_LensesCase" && itemsCollected["Lenses"] == false)
 				{
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("UpdateMission Get_Ready2")), ar, NULL, true);
 					missionsManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("MissionTrigger Lenses")), ar, NULL, true);
