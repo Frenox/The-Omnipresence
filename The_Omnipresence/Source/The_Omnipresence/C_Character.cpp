@@ -34,30 +34,6 @@ void AC_Character::BeginPlay()
 void AC_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	FVector loc;
-	FRotator rot;
-	FHitResult hit;
-
-	GetController()->GetPlayerViewPoint(loc, rot);
-
-	FVector start = loc;
-	FVector end = start + (rot.Vector() * 100);
-
-	FCollisionQueryParams traceParams;
-	if (GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, traceParams))
-	{
-		FOutputDeviceNull ar;
-		hitActor = hit.GetActor();
-		if (hitActor)
-		{
-			if (hitActor->ActorHasTag(TEXT("HouseDoor")))
-			{
-				const FString command = FString::Printf(TEXT("DoorInteract"));
-				hitActor->CallFunctionByNameWithArguments(*command, ar, NULL, true);
-			}
-		}
-	}
 }
 
 // Called to bind functionality to input

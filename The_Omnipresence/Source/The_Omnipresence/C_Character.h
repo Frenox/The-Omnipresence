@@ -26,6 +26,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+		bool needToOpenDoor;
+
 private:
 	UPROPERTY(EditAnywhere, Category = "Interaction")
 		UStaticMeshComponent* ConeIntercation;

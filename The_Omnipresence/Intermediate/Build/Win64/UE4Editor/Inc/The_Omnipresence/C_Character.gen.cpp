@@ -123,6 +123,11 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_needToOpenDoor_MetaData[];
+#endif
+		static void NewProp_needToOpenDoor_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_needToOpenDoor;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConeIntercation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConeIntercation;
@@ -150,6 +155,17 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor_MetaData[] = {
+		{ "Category", "Interaction" },
+		{ "ModuleRelativePath", "C_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor_SetBit(void* Obj)
+	{
+		((AC_Character*)Obj)->needToOpenDoor = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor = { "needToOpenDoor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AC_Character), &Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor_SetBit, METADATA_PARAMS(Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation_MetaData[] = {
 		{ "Category", "Interaction" },
 		{ "EditInline", "true" },
@@ -165,6 +181,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor = { "hitActor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Character, hitActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Character_Statics::NewProp_needToOpenDoor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Character_Statics::NewProp_ConeIntercation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Character_Statics::NewProp_hitActor,
 	};
@@ -195,7 +212,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Character, 1879592754);
+	IMPLEMENT_CLASS(AC_Character, 95567442);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Character>()
 	{
 		return AC_Character::StaticClass();
