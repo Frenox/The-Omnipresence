@@ -124,8 +124,42 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FItemsMeshes_Hash() { return 3175237215U; }
+	DEFINE_FUNCTION(AC_Player::execresetLevel)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->resetLevel();
+		P_NATIVE_END;
+	}
 	void AC_Player::StaticRegisterNativesAC_Player()
 	{
+		UClass* Class = AC_Player::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "resetLevel", &AC_Player::execresetLevel },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AC_Player_resetLevel_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC_Player_resetLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "C_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_Player_resetLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_Player, nullptr, "resetLevel", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AC_Player_resetLevel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_Player_resetLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AC_Player_resetLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AC_Player_resetLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AC_Player_NoRegister()
 	{
@@ -134,6 +168,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 	struct Z_Construct_UClass_AC_Player_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -174,6 +209,9 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 	UObject* (*const Z_Construct_UClass_AC_Player_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_The_Omnipresence,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AC_Player_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AC_Player_resetLevel, "resetLevel" }, // 1752123533
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::Class_MetaDataParams[] = {
@@ -255,11 +293,11 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AC_Player_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -274,7 +312,7 @@ static struct FScriptStruct_The_Omnipresence_StaticRegisterNativesFItemsMeshes
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 662375759);
+	IMPLEMENT_CLASS(AC_Player, 3488902392);
 	template<> THE_OMNIPRESENCE_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();

@@ -58,6 +58,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Missions")
 		AActor* missionsManager;
 
+	UFUNCTION(BlueprintCallable)
+		void resetLevel();
+
 private:
 	UPROPERTY(EditAnywhere, Category = "HitActor")
 		AActor* hitActor;

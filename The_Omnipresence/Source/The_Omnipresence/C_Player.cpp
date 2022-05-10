@@ -78,32 +78,34 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 }
 
 
+void AC_Player::resetLevel()
+{
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}
+
 void AC_Player::MoveForward(float value)
 {
-	if (isInventoryOpen == false)
+	if (value < 0.0f)
 	{
-		if (value < 0.0f)
+		// add movement in that direction
+		AddMovementInput(GetActorForwardVector(), value);
+	}
+	else
+	{
+		if (isSprinting == true)
 		{
-			// add movement in that direction
-			AddMovementInput(GetActorForwardVector(), value);
+			AddMovementInput(GetActorForwardVector(), value * 2.5f);
 		}
 		else
 		{
-			if (isSprinting == true)
-			{
-				AddMovementInput(GetActorForwardVector(), value * 2.5f);
-			}
-			else
-			{
-				AddMovementInput(GetActorForwardVector(), value * 1.0f);
-			}
+			AddMovementInput(GetActorForwardVector(), value * 1.0f);
 		}
 	}
 }
 
 void AC_Player::MoveRight(float value)
 {
-	if (value != 0.0f && isInventoryOpen == false)
+	if (value != 0.0f)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), value);
@@ -155,8 +157,7 @@ void AC_Player::InventoryToggle()
 {
 	isInventoryOpen = !isInventoryOpen;
 	FOutputDeviceNull ar;
-	const FString command = FString::Printf(TEXT("InventoryToggle"));
-	inventoryManager->CallFunctionByNameWithArguments(*command, ar, NULL, true);
+	inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("InventoryToggle")), ar, NULL, true);
 }
 
 void AC_Player::Interact()

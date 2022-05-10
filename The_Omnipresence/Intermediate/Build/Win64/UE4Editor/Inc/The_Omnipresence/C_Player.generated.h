@@ -22,8 +22,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> THE_OMNIPRESENCE_API UScriptStruct* StaticStruct<struct FItemsMeshes>();
 
 #define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_SPARSE_DATA
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_RPC_WRAPPERS
-#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execresetLevel);
+
+
+#define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execresetLevel);
+
+
 #define The_Omnipresence_Source_The_Omnipresence_C_Player_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC_Player(); \
