@@ -157,7 +157,7 @@ void AC_Player::InventoryToggle()
 {
 	isInventoryOpen = !isInventoryOpen;
 	FOutputDeviceNull ar;
-	inventoryManager->CallFunctionByNameWithArguments(*FString::Printf(TEXT("InventoryToggle")), ar, NULL, true);
+	this->CallFunctionByNameWithArguments(*FString::Printf(TEXT("InventoryToggle")), ar, NULL, true);
 }
 
 void AC_Player::Interact()
